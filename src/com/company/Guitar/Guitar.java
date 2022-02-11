@@ -34,5 +34,11 @@ public abstract class Guitar implements Playable {
     public void setYear(int year) {
         this.year = year;
     }
+
+    public void printDetails() {
+        System.out.print(this.brand + " | ");
+        System.out.print(this.model + " | ");
+        System.out.print(this.year + " | ");
+    }
 }
 

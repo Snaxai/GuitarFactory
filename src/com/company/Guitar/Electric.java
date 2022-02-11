@@ -16,4 +16,10 @@ public class Electric extends Guitar {
     public String getPickups() {
         return pickups;
     }
+
+    @Override
+    public void printDetails() {
+        super.printDetails();
+        System.out.print(this.pickups + " | ");
+    }
 }
